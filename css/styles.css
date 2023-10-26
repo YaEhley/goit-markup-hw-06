@@ -187,7 +187,7 @@ img {
     width: 24px;
     height: 24px;
     background-color: rgba(0, 0, 0, 0.10);
-    border: 1px solid #2E2F42;
+    border: 1px solid #0000001a;
     opacity: 0.1;  
     border-radius: 50%;
     padding: 0;
@@ -797,7 +797,7 @@ img {
 }
 
 .modal {
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;
@@ -1017,6 +1017,25 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .header-menu {
+        display: flex;
+        gap: 40px;
+        margin-right: 122px;
+    }
+
+    .adress-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .menu-open-btn {
+        display: none;
+    }
+
     .container {
         max-width: 736px;
         padding-left: 16px;
@@ -1079,7 +1098,11 @@ img {
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
-}
+
+    .modal {
+        width: 408px;
+    }
+ }
 
 @media screen and (min-width: 1158px) {
     .container {

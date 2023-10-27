@@ -182,7 +182,7 @@ img {
 }
 
 .menu-close-btn {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;

@@ -188,17 +188,16 @@ img {
     margin-left: auto;
     width: 24px;
     height: 24px;
-    background-color: rgba(0, 0, 0, 0.10); 
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    opacity: 0.1; 
+    border: 1x solid rgba(0, 0, 0, 0.10);
+    /* opacity: 0.1;   */
     border-radius: 50%;
     padding: 0;
     margin-bottom: 24px;
+    background-color: transparent;
 }
 
 .menu-open-btn-icon {
     fill: #2E2F42;
-    opacity: 1;
 }
 
 .mob-menu {
